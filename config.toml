@@ -11,11 +11,10 @@ theme = "mainroad"
 
 [Params]
   description = "技術とか真面目なこと周りについてのブログです。作業メモを兼ねます。"
-  mainSections = ["useful"]
  
 [Params.sidebar]
   home = "left" 
-  list = "right"
+  list = "left"
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets.social]

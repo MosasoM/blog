@@ -1,0 +1,26 @@
+baseURL = "https://MosasoM.github.io/blog/"
+languageCode = "ja"
+title = "mosamosa blog"
+publishDir = "docs"
+theme = "mainroad"
+
+[Author] # Used in authorbox
+  name = "mosamosa/K Hashimoto"
+  bio = "a Human being。エンジニア見習いの見習いくらいの存在です。"
+  avatar = "img/avatar.png"
+
+[Params]
+  description = "技術とか真面目なこと周りについてのブログです。作業メモを兼ねます。"
+  mainSections = ["useful"]
+ 
+[Params.sidebar]
+  home = "left" 
+  list = "right"
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets.social]
+twitter = "@dear_morality"
+
+[[Params.widgets.social.custom]]
+  title = "Qiita"
+  url = "https://qiita.com/mosamosa"
